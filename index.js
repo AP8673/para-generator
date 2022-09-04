@@ -12,5 +12,10 @@ const generateWord = (n) => {
     return text;
 };
 
+const generatePara = () => {
+    const numOfWords = Number(input.value);
+
+    
+}
 
 document.getElementById("generate").onclick = generateWord;
